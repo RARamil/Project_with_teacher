@@ -19,4 +19,4 @@
 
 Создали один общий пайплайн и обучили четыре модели KNeighborsClassifier(), DecisionTreeClassifier(), LogisticRegression() и SVC(). В качестве метрики выбрали универсальный вариант ROC-AUC.
 
-Лучшая модель LogisticRegression(C=10, penalty='l1', random_state=42, solver='liblinear'))]), метрика roc_auc по кросс валидации = 0.896
+Лучшая модель LogisticRegression(C=17, penalty='l1', random_state=42, solver='liblinear'))]), метрика roc_auc по кросс валидации = 0.896
